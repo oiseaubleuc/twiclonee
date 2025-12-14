@@ -20,14 +20,17 @@ Twitter-like web application built with Laravel, inspired by the core features o
    ```bash
    git clone https://github.com/oiseaubleuc/twiclonee.git
 
-Install dependencies:
-composer install
-npm install
-npm run build
-Configure environment:
-Copy .env.example to .env
-Set your database credentials
-Run migrations:
-php artisan migrate
-Start the server:
-php artisan serve
+2. Install dependencies:
+    composer install
+    npm install
+    npm run build
+   
+3. Configure environment:
+        Copy .env.example to .env
+        Set your database credentials
+   
+4. Run migrations:
+        php artisan migrate
+   
+5. Start the server:
+        php artisan serve
